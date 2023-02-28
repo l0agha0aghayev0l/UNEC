@@ -1,0 +1,139 @@
+body{
+    background: linear-gradient(to left, #B86BF8, #6BB5F8);
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-style{
+    background-color: #144365FF;
+    font-size: 5px;
+}
+
+.logo-st{
+    color: linear-gradient(to left, #B86BF8, #6BB5F8);
+}
+
+.logo-st:hover{
+    color: linear-gradient(to left, #B86BF8, #6BB5F8);
+}
+
+.comt{
+    background-color: rgba(8, 44, 81, 0.5);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('image/6335846944eba6335846944ebb16644516896335846944eb76335846944eb8.jpg');
+}
+
+.car-button{
+    margin-bottom: 250px;
+}
+
+  
+  .butt{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+   .butt-span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .butt:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #004777;
+    transition: all .35s;
+  }
+  
+  .butt:hover{
+    color: #fff;
+  }
+  
+  .butt:hover:after{
+    width: 100%;
+  }
+
+  .butt-white{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #004777;
+    border: 2px solid #004777;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+   .butt-span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .butt-white:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #004777;
+    transition: all .35s;
+  }
+  
+  .butt-white:hover{
+    color: #fff;
+  }
+  
+  .butt-white:hover:after{
+    width: 100%;
+  }
+
+
+
+  .main-block{
+    height: 100vh;
+    background-image: url(image/Azerbaijan_State_Economic_University_main_building.jpg);
+    width: 100%;
+    background-repeat: no-repeat; 
+    background-size:cover;
+    background-position: bottom ;
+  }
+
+  .blur{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #0047775e; */
+  }
+
+  .cont{
+    width: 400px;
+    height: 400px;
+    display: block;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+  }
